@@ -103,9 +103,9 @@
       error('Wrong number of required parameters');
    end
    if (nargin < 5); par = []; end
-   dir = 'sd';
+   dir = 'sq';
    stopCriterion = 0;
-   chooseH  = 1;
+   chooseH  = 2;
    steprule = 0;
    tol      = 1e-3;
    maxiter  = 1000;

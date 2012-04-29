@@ -60,7 +60,7 @@ function [alpha,breakpts] = findstep(Ad,resid,nonz,x,d,tau)
       %% find the first positive break-point with 
       %% increased objective value
       %%
-      idxpos2 = idxpos2(find(idxpos2)); 
+      idxpos2 = idxpos2(find(idxpos2));
       len = length(idxpos2);
       objold = tau*L1norm(nx); 
       findone = 0;
